@@ -277,7 +277,7 @@ const init = () => {
                 obstacles[i].y < player.y + (player.height - 14) &&
                 player.y + (player.height - 14) > obstacles[i].y){
                 isPlaying = false;
-                document.getElementById("Yah Payah! Kalah Mulu Ajg!").innerHTML = "Yah Payah! Kalah Mulu Ajg!";
+                document.getElementById("Parah! Kalah Mulu!").innerHTML = "Parah! Kalah Mulu!";
                 prompt.style.display = "block";
                 cancelAnimationFrame(mainAnimeId);
             }
@@ -348,7 +348,7 @@ window.addEventListener("load", init, false);
 </center>
     <div id="prompt">
         <div id="toolbar">
-            <h1 style="color:red" id="Parah! Kalah Mulu Ajg!"></h1><br>
+            <h1 style="color:red" id="Parah! Kalah Mulu!"></h1><br>
             <input type="button" id="startBtn" value="🐈 Mulai">
         </div>
     </div>
